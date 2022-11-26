@@ -1,0 +1,28 @@
+LOGIN
+    ENTITIES
+        DB: Customers
+            ->USER_ID
+            ->USER_NAME
+            ->PASSWORD
+        
+        DB: Customer_details
+            ->Customer_id
+            ->USER_NAME
+            ->GENDER
+            ->EMAIL
+            ->PHONE_NUMBER
+            ->ADDRESS
+HOME
+    ENTITIES
+        DB: MongoDB
+            ->product_category
+                ->product_brands
+                    ->product_name
+                    ->product_price
+                    ->product_image_url
+                    ->product_details
+                    ->seller
+                    ->product_Review
+                        ->product_review_text
+                        ->rating
+                        ->user_upload_image

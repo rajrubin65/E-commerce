@@ -1,0 +1,161 @@
+{
+  "product_category": "Laptop",
+  "brands": [
+    {
+      "product_brand_name": "HP",
+      "brand_products": [
+        {
+            "product_name": "pavillion",
+            "product_price": "50k",
+            "product_image_url": {},
+            "product_details": "ryzen5",
+            "seller": "rubin",
+            "product_review": [
+              {
+                "product_rating": "5",
+                "product_review": "good laptop",
+                "user_upload_image": {}
+              }
+            ]
+          },
+          {
+            "product_name": "Hp13",
+            "product_price": "105k",
+            "product_image_url": {},
+            "product_details": "A16 bionic chip",
+            "seller": "rubin",
+            "product_review": [
+              {
+                "product_rating": "5",
+                "product_review": "good phone",
+                "user_upload_image": {}
+              }
+            ]
+          },
+          {
+            "product_name": "HP334",
+            "product_price": "85k",
+            "product_image_url": {},
+            "product_details": "A16 bionic chip",
+            "seller": "rubin",
+            "product_review": [
+              {
+                "product_rating": "5",
+                "product_review": "good phone",
+                "user_upload_image": {}
+              }
+              
+            ]
+          },
+          {
+            "product_name": "hP555",
+            "product_price": "100k",
+            "product_image_url": {},
+            "product_details": "A15 bionic chip",
+            "seller": "rubin",
+            "product_review": [
+              {
+                "product_rating": "5",
+                "product_review": "good phone",
+                "user_upload_image": {}
+              }
+              
+            ]
+          },
+          {
+            "product_name": "HP8555",
+            "product_price": "69k",
+            "product_image_url": {},
+            "product_details": "A15 bionic chip",
+            "seller": "rubin",
+            "product_review": [
+              {
+                "product_rating": "5",
+                "product_review": "good phone",
+                "user_upload_image": {}
+              }
+              
+            ]
+          }
+      ]
+    },
+    {
+      "product_brand_name": "Lenovo",
+      "brand_products": [
+        {
+            "product_name": "Rog",
+            "product_price": "50k",
+            "product_image_url": {},
+            "product_details": "ryzen5",
+            "seller": "rubin",
+            "product_review": [
+              {
+                "product_rating": "5",
+                "product_review": "good laptop",
+                "user_upload_image": {}
+              }
+            ]
+          },
+          {
+            "product_name": "Lenovo13",
+            "product_price": "105k",
+            "product_image_url": {},
+            "product_details": "A16 bionic chip",
+            "seller": "rubin",
+            "product_review": [
+              {
+                "product_rating": "5",
+                "product_review": "good phone",
+                "user_upload_image": {}
+              }
+            ]
+          },
+          {
+            "product_name": "Lenovo334",
+            "product_price": "85k",
+            "product_image_url": {},
+            "product_details": "A16 bionic chip",
+            "seller": "rubin",
+            "product_review": [
+              {
+                "product_rating": "5",
+                "product_review": "good phone",
+                "user_upload_image": {}
+              }
+              
+            ]
+          },
+          {
+            "product_name": "Lenovo555",
+            "product_price": "100k",
+            "product_image_url": {},
+            "product_details": "A15 bionic chip",
+            "seller": "rubin",
+            "product_review": [
+              {
+                "product_rating": "5",
+                "product_review": "good phone",
+                "user_upload_image": {}
+              }
+              
+            ]
+          },
+          {
+            "product_name": "Lenovo555",
+            "product_price": "69k",
+            "product_image_url": {},
+            "product_details": "A15 bionic chip",
+            "seller": "rubin",
+            "product_review": [
+              {
+                "product_rating": "5",
+                "product_review": "good phone",
+                "user_upload_image": {}
+              }
+              
+            ]
+          }
+      ]
+    }
+  ]
+}

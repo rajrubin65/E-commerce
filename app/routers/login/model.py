@@ -18,6 +18,7 @@ class CustomerDetails(Base):
     __tablename__ = 'customer_details'
     customer_id = Column("CUSTOMER_ID",Integer,primary_key= True, nullable= False)
     user_name = Column("USER_NAME",String(20))
+    gender = Column("GENDER",String(10))
     e_mail = Column("EMAIL",String(20))
     phone_no = Column("PHONE_NUMBER",BigInteger)
     Address = Column("ADDRESS",Text(500))
@@ -34,6 +35,7 @@ class Login(BaseModel):
 
 class Register(BaseModel):
     user_name :str
+    gender :str
     e_mail :str
     phone_no :int
     address :str

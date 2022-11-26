@@ -1,5 +1,6 @@
 from configparser import SafeConfigParser
 from sqlalchemy import create_engine
+from pymongo import MongoClient
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.orm import Session
@@ -28,3 +29,5 @@ with Session(bind=db_engine) as session:
 
 
 Base = declarative_base()
+
+mongo_db = MongoClient()

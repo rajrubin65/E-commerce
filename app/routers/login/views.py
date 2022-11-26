@@ -15,7 +15,12 @@ def login(login:Login):
     user = ses.query(Loginschema).filter_by(user_name = login.user_name).first()
     print(user.password)
     if user and hasher.verify_password(login.password, user.password):
-        return{'message':"Valid User"}
+        return {
+            'user_name': user.user_name,
+            'user_password': user.password,
+            'user_id': user.user_id,
+            'message': 'Login successfully'
+        }
     else:
         return{'message':"Not a valid user"}
 
@@ -25,6 +30,7 @@ def register_user(register:Register):
     count = ses.query(Loginschema).count()
     reg_user = CustomerDetails(
         user_name = register.user_name,
+        gender = register.gender,
         e_mail = register.e_mail,
         phone_no = register.phone_no,
         Address = register.address,
