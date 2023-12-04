@@ -1,4 +1,4 @@
-name: Fastapi
+name: Fastapi 
 
 on:
   push:
